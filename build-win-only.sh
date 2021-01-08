@@ -16,5 +16,5 @@ rm -rf build
 rm -rf /root/output/$HOST
 mv $WORKSPACE/out/$HOST /root/output/$HOST
 
-zip -j /root/output/dogecoind-windows-x64.zip /root/output/$HOST/bin/dogecoind.exe /root/output/$HOST/bin/dogecoin-tx.exe /root/output/$HOST/bin/dogecoin-cli.exe
+zip -j /root/output/dogecoind-windows-x64.zip /root/output/$HOST/bin/dogecoind.exe /root/output/$HOST/bin/dogecoin-tx.exe /root/output/$HOST/bin/dogecoin-cli.exe /root/output/$HOST/bin/test-dogecoin.exe
 zip -j /root/output/dogecoinqt-windows-x64.zip /root/output/$HOST/bin/dogecoin-qt.exe
